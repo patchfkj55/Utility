@@ -1,0 +1,306 @@
+body{
+    background-color: #4242bb;
+    color:azure;
+    font-family: "Open Sans" ,"Helvetica", "arial";
+}
+h1{
+    color: azure;
+    text-align: center;
+    font-family: "Fira Sans","Signika","Roboto Condensed", "Trebuchet MS";
+}
+h2{
+    font-family: "Fira Sans", "Signika","Roboto Condensed", "Trebuchet MS";
+    text-align: center;
+    margin: 0px;
+}
+h3{
+    font-family: "Fira Sans","Signika","Roboto Condensed", "Trebuchet MS";
+    text-align: center;
+}
+h4{
+    font-family: "Fira Sans","Signika","Roboto Condensed", "Trebuchet MS";
+    margin: 0px;
+    margin-bottom: 15px;
+    padding: 0px;
+    text-align: center;
+}
+    #title{
+        position: relative;
+        background-size: 100%;
+        width: 100%;
+        margin-top: -1%;
+        float: left;
+        border-top-width: 0px;
+        min-height: 420px;
+        text-align: center;
+        margin-bottom: -50px;
+        z-index: 0;
+    }
+    #title h1{
+        margin-top: -140px;
+    }
+    #title h2{
+        padding-bottom: 15%;
+        font-size: 200%;
+    }
+#title img{
+    height: 20%;
+}
+.hidden{
+    visibility: hidden;
+    display: none;
+}
+.visible{
+    width: auto;
+    height: auto;
+    display: block;
+    visibility: visible;
+}
+button{
+    background: transparent;
+    border: solid 0px azure;
+    display: inline;
+    color:azure;
+    font-family: "Helvetica", "arial";
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    font-style: italic;
+}
+button:hover{
+    border-bottom-width: 2px;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+#register{
+    position: fixed;
+    float: left;
+    width:80%;
+    padding-left: 40%;
+    padding-right: 50%;
+    padding-top: 25%;
+    padding-bottom: 200%;
+    margin-top: -10%;
+    margin-left: -35%;
+    background-color: #fbffff;
+    background-color: rgba(0,0,0,0.5);
+    color:azure;
+    visibility: hidden;
+    text-align: center;
+    font-size: 120%;
+    z-index: 2;
+}
+#register h4{
+    border: solid 0px blue;
+    border-bottom-width: 2px;
+    margin: -2px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    display: none;
+}
+#register li{
+    margin-bottom: 2px;
+}
+#register input{
+    font-size: 110%;
+}
+#register button{
+    width: 40%;
+    left: -15px;
+}
+.mainSec{
+    border: solid 0px azure;
+    margin-top: 0px;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    border-top-width: 4px;
+    border-bottom-width: 0px;
+    width: 105%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin-left: -2.5%;
+    background-color: #4242bb;
+}
+#updates{
+    height:50%;
+    width:100%;
+    margin-left: -1%;
+    border: solid 0px #fff;
+}
+#poll{
+}
+.description{
+    position: fixed;
+    height:100%;
+    width: 90%;
+    text-align: center;
+    margin-top: 15px;
+    border-bottom-width: 2px;
+    padding-left: 33%;
+    padding-right: 50%;
+    padding-top: 25%;
+    margin-top: -10%;
+    top:0px;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: -33%;
+    z-index: 3;
+}
+.mainDesc{
+    z-index: 0;
+    display: block;
+    position: relative;
+    padding-top: 40%;
+    width:100%;
+    border-bottom-width: 0px;
+    height:45%;
+    font-size: 100%;
+    border-top-width: 0px;
+    text-align: center;
+    left: 0px;
+    padding-left: 0.5%;
+    background-color: transparent;
+    margin: 0px;
+    height: auto;
+}
+.mainDesc button{
+    font-size: 100%;
+}
+.boardered{
+    background-color: azure;
+    color: black;
+    display: block;
+    margin-left: 45%;
+    width:10%;
+    height:5%;
+    padding: 0px;
+}
+.boardered button:hover{
+    border-bottom-width: 0px;
+}
+input{
+    background-color: azure;
+    border: solid 0px azure;
+    color: #4242bb;
+}
+ul{
+    margin: 0px;
+    padding: 2px;
+}
+.fixed{
+    position: fixed;
+    margin-bottom: 5px;
+    background-color: #4242bb;
+    width:100%;
+}
+
+#title img{
+    right: 0px;
+}
+.updateBlock{
+    background-color: #4242bb;
+    display: block;
+}
+#CTAButton{
+    position:absolute;
+    background-image: url("/static/images/nonDynamic/CTA.png");
+    background-size: 100%;
+    width:150px;
+    height:150px;
+    right: 22%;
+    top:178px;
+    min-height: 50px;
+    min-width: 50px;
+    z-index: 1;
+}
+#CTAButton:hover{
+    background-image: url("/static/images/nonDynamic/CTAa.png");
+    border-bottom-width: 0px;
+}
+#CTACloseButton{
+    color: darkblue;
+    width: 20%;
+    min-width: 20px;
+    min-height: 10px;
+}
+#ctaReg{
+    background-image: url("/static/images/nonDynamic/CTA.png");
+    background-size: 100%;
+    height:150px;
+    width: 150px;
+    background-color: transparent;
+    border-width: 0px;!important
+}
+#ctaReg:hover{
+    background-image: url("/static/images/nonDynamic/CTAa.png");
+}
+@media screen and (min-width:900px){
+    #title{
+        position: relative;
+        background-size: 100%;
+        width: 100%;
+        margin-top: -1%;
+        float: left;
+        border-top-width: 0px;
+        padding-left: 5%;
+        min-height: 420px;
+        text-align: left;
+    }
+    #title h1{
+        margin-top: -400px;
+        padding-bottom: 50%;
+    }
+    #title h2{
+        margin-top: -35%;
+        padding-bottom: 15%;
+        font-size: 200%;
+        margin-left: -50%;
+    }
+    #title img{
+        height: auto;
+    }
+    #CTAButton{
+        width:200px;
+        height:200px;
+        min-height: 50px;
+        min-width: 50px;
+        right:15%;
+        top:25%;
+    }
+    .mainDesc{
+        z-index: 0;
+        display: block;
+        position: relative;
+        padding-top: 40%;
+        width:100%;
+        border-bottom-width: 0px;
+        height:45%;
+        font-size: 200%;
+        border-top-width: 0px;
+        text-align: left;
+        left: 0px;
+        padding-left: 5%;
+        background-color: transparent;
+        margin: 0px;
+    }
+    #register{
+    position: fixed;
+    float: left;
+    width:80%;
+    padding-left: 40%;
+    padding-right: 50%;
+    padding-top: 25%;
+    padding-bottom: 80%;
+    margin-top: -10%;
+    margin-left: -35%;
+    background-color: #fbffff;
+    background-color: rgba(0,0,0,0.5);
+    color:azure;
+    visibility: hidden;
+    text-align: center;
+    font-size: 200%;
+    z-index: 2;
+}
+}

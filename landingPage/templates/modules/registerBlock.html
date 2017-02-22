@@ -1,0 +1,11 @@
+{% load static %}
+<button id="CTAButton" onclick="show('register')"></button>
+<form action="{{directory}}" method="post" id="register">
+    {% csrf_token %}
+    <ul>
+        <li><h4>Register your interest</h4></li>
+        <li>Email<input name="registerEmail"><input type="submit" name="submitRegistration" value=" " id="ctaReg"></li>
+        <li>{{extraPrompt}}</li>
+    </ul>
+    <button id="CTACloseButton" onclick="collapse('register')" class="boardered">Cancel</button>
+</form>
